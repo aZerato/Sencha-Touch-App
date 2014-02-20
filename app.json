@@ -2,7 +2,7 @@
     /**
      * The application's namespace, used by Sencha Command to generate classes
      */
-    "name": "senchatouchapp",
+    "name": "sencha-touch-app",
 
     /**
      * The file path to this application's front HTML document, relative to this app.json file
@@ -131,5 +131,5 @@
      * Uniquely generated id for this application, used as prefix for localStorage keys.
      * Normally you should never change this value.
      */
-    "id": "80cfdfc4-85c7-4060-8e18-e2131cc82aee"
+    "id": "22403c49-3697-4d23-ad1e-30a8568100e8"
 }

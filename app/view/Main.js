@@ -1,9 +1,9 @@
-Ext.define('senchatouchapp.view.Main', {
+Ext.define('sencha-touch-app.view.Main', {
     extend: 'Ext.tab.Panel',
     xtype: 'main',
     requires: [
         'Ext.TitleBar',
-        'Ext.Video'
+        'Ext.Video',
     ],
     config: {
         tabBarPosition: 'bottom',
@@ -44,6 +44,11 @@ Ext.define('senchatouchapp.view.Main', {
                         posterUrl: 'http://b.vimeocdn.com/ts/261/062/261062119_640.jpg'
                     }
                 ]
+            },
+            {
+                title: 'Contacts',
+                iconCls: 'user',
+                xtype: 'contactsNavigation'       
             }
         ]
     }
