@@ -17,10 +17,10 @@ And then, go to : http://localhost:8000/ (best experience on Chrome)
 How to
 ======
 
-Install : sencha command
+Install : sencha command (http://www.sencha.com/products/sencha-cmd/download)
 Create a sencha folder, where you want put all your 'sencha creations'
 
-Download 'sencha touch archive'
+Download 'sencha touch archive' (http://www.sencha.com/products/touch/download/)
 
 You need to obtain this :
 
