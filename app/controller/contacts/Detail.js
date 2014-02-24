@@ -6,6 +6,5 @@ Ext.define('sencha-touch-app.controller.contacts.Detail', {
     	refs: {
     		contactDetail: 'contactDetail'
     	}
-    },
-
+    }
 });

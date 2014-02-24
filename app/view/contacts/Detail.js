@@ -1,11 +1,16 @@
 Ext.define('sencha-touch-app.view.contacts.Detail', {
-    extend: 'Ext.form.Panel',
+    extend: 'Ext.Panel',
     requires: ['sencha-touch-app.store.Contacts'],
 
     xtype: 'contactDetail',
     id: 'contactDetail',
 
     config: {
-        title: '{lastName}'
+    	// this property is required for being settable when you create the view (go : controller > contacts > List)
+    	title: '',
+    	// Data show
+        tpl: [
+        	'{lastName} {firstName}'
+        ]
     }
 });

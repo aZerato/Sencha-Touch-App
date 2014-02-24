@@ -16,7 +16,7 @@ Ext.define('sencha-touch-app.controller.contacts.List', {
         // fonctions / actions
         control: {
             list: {
-                select: 'showDetail'
+                itemtap: 'showDetail'
             }
         }
     },
@@ -28,8 +28,12 @@ Ext.define('sencha-touch-app.controller.contacts.List', {
 
         // I'm create a new view
         var detailView = Ext.create('sencha-touch-app.view.contacts.Detail');
-        // Passing data
+
+        // Pass data
         detailView.setRecord(record);
+
+        // You need to add property 'title' in the view for being settable
+        detailView.setTitle(record.getData().firstName);
 
         // push the new detail View
         contactsNavigation.push(detailView);

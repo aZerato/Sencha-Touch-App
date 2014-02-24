@@ -29,6 +29,7 @@ Ext.application({
 
     // Controllers declaration
     controllers: [
+        'contacts.Navigation',
         'contacts.List',
         'contacts.Detail'
     ],

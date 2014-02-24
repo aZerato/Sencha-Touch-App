@@ -12,17 +12,10 @@ Ext.define('sencha-touch-app.view.contacts.Navigation', {
     xtype: 'contactsNavigation',
 
     config: {
-
     	// Composition of view
-		items: [
-			{
-				docked: 'top',
-                xtype: 'titlebar',
-                title: 'Contacts'
-			},{
-				// i'm define that second part of the view is an contractsList view
-				xtype: 'contactsList'
-			}
-		]
+		items: {
+			title: 'Contacts',
+			xtype: 'contactsList'
+		}
     }
 });
