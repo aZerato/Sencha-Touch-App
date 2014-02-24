@@ -24,14 +24,18 @@ Ext.application({
         'Main',
         'contacts.Navigation',
         'contacts.List',
-        'contacts.Detail'
+        'contacts.Detail',
+        'contacts.EditButton',
+        'contacts.Edit'
     ],
 
     // Controllers declaration
     controllers: [
         'contacts.Navigation',
         'contacts.List',
-        'contacts.Detail'
+        'contacts.Detail',
+        'contacts.EditButton',
+        'contacts.Edit'
     ],
 
     icon: {

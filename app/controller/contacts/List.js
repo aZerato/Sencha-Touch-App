@@ -31,9 +31,11 @@ Ext.define('sencha-touch-app.controller.contacts.List', {
 
         // Pass data
         detailView.setRecord(record);
+        var data = record.getData();
+        detailView.setData(data);
 
         // You need to add property 'title' in the view for being settable
-        detailView.setTitle(record.getData().firstName);
+        detailView.setTitle(data.firstName);
 
         // push the new detail View
         contactsNavigation.push(detailView);
