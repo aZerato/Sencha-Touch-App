@@ -7,17 +7,6 @@ Ext.define('sencha-touch-app.store.Contacts',{
 		model: 'sencha-touch-app.model.Contact',
 		
 		autoLoad: true,
-		autoSync: true,
-
-		// 
-		proxy: {
-			type: 'ajax',
-			url: '/jsonData/contacts.json',
-			reader: {
-				type: 'json',
-				// my json file start with { "contacts": [ {...}, {...}, ... ]}
-				rootProperty: 'contacts'
-			}
-		}
+		autoSync: true
 	}
 });

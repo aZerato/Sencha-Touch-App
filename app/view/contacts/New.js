@@ -1,12 +1,11 @@
-Ext.define('sencha-touch-app.view.contacts.Edit', {
+Ext.define('sencha-touch-app.view.contacts.New', {
     extend: 'Ext.form.Panel',
 
-    xtype: 'contactEdit',
-    id: 'contactEdit',
+    xtype: 'contactNew',
+    id: 'contactNew',
 
     config: {
-    	// this property is required for being settable when you create the view (go : controller > contacts > List)
-    	title: '',
+    	title: 'New Contact',
 
         items: [
             {
