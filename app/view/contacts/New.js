@@ -25,7 +25,10 @@ Ext.define('sencha-touch-app.view.contacts.New', {
                 name: 'address',
                 label: 'Address'
             }, {
-                xtype: 'contactSubmitButton'
+                xtype: 'button',
+                id: 'submitNewContact',
+                ui: 'confirm',
+                text: 'Submit'
             }
         ]
     }

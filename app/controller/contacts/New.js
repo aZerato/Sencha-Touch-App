@@ -2,17 +2,15 @@ Ext.define('sencha-touch-app.controller.contacts.New', {
     extend: 'Ext.app.Controller',
     require: [
         'sencha-touch-app.view.contacts.New',
-        'sencha-touch-app.view.contacts.SubmitButton',
         'sencha-touch-app.store.Contacts'
     ],
 
     config: {
         refs: {
-            contactNew: 'contactNew',
-            contactSubmitButton: 'contactSubmitButton'
+            contactNew: 'contactNew'
         },
         control: {
-            contactSubmitButton: {
+            'contactNew #submitNewContact': {
                 tap: 'submitContact'
             }
         }

@@ -28,8 +28,7 @@ Ext.application({
         'contacts.New',
         'contacts.Detail',
         'contacts.EditButton',
-        'contacts.Edit',
-        'contacts.SubmitButton'
+        'contacts.Edit'
     ],
 
     // Controllers declaration

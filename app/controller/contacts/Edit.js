@@ -2,24 +2,22 @@ Ext.define('sencha-touch-app.controller.contacts.Edit', {
     extend: 'Ext.app.Controller',
     require: [
     	'sencha-touch-app.view.contacts.Edit',
-    	'sencha-touch-app.view.contacts.SubmitButton',
     	'sencha-touch-app.store.Contacts'
     ],
 
     config: {
     	refs: {
-    		contactEdit: 'contactEdit',
-    		contactSubmitButton: 'contactSubmitButton'
+    		contactEdit: 'contactEdit'
     	},
     	control: {
-    		contactSubmitButton: {
+    		'contactEdit #submitEditContact': {
     			tap: 'submitContact'
     		}
     	}
     },
 
     submitContact: function() {
-    	var self = this;
+        var self = this;
 
     	var contactEdit = self.getContactEdit();
 

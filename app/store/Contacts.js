@@ -6,7 +6,6 @@ Ext.define('sencha-touch-app.store.Contacts',{
 		// store model, you need to put the 'namespace' of your model
 		model: 'sencha-touch-app.model.Contact',
 		
-		autoLoad: true,
-		autoSync: true
+		autoLoad: true
 	}
 });
